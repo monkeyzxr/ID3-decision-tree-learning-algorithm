@@ -23,3 +23,10 @@ After reading all the data instances, you should output a summary of the dataset
 After the decision tree has been constructed, you will check the pruning factor, which will be given by the third argument to your program. The pruning factor is defined as the fraction of the nodes that you will prune.
 
 After pruning the tree, you will re-compute the training and test accuracy and output the summary on the screen as before. You should also output the plot of the post-pruned decision tree model.
+
+***********************************
+Additional Project Requirement:
+
+Instead of using the ID3 algorithm to choose which attribute to select for splitting the data at each node, write a method that randomly picks attributes for each node. Every other requirement remains the same. Just to reiterate, you cannot use the same attribute twice in a path. There is no need to prune the tree.
+
+Construct a new tree using random selection of attributes and compare the performance (in terms of accuracy) of the tree constructed using this approach to the one constructed earlier using ID3. You need to compare the trees without pruning.
